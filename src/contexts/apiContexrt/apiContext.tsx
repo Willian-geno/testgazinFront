@@ -2,7 +2,9 @@ import { createContext, useContext, useState } from "react";
 
 interface IApiContext {
   devs: IDevs[],
-  setDevs: React.Dispatch<React.SetStateAction<IDevs[]>>
+  setDevs: React.Dispatch<React.SetStateAction<IDevs[]>>,
+  niveis: INivel[], 
+  setNiveis: React.Dispatch<React.SetStateAction<INivel[]>>,
 }
 
 export interface IDevs {
@@ -28,6 +30,106 @@ interface ApiProps {
 const ApiContext = createContext<IApiContext>({} as IApiContext)
 
 export const  ApiProvider = ({children}:ApiProps) => {
+  const [  niveis, setNiveis] = useState<INivel[]>([
+    {
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },{
+      id:1,
+      nivel: "Junior"
+    },
+  ])
+
     const [  devs, setDevs] = useState<IDevs[]>([
       {
         id: 1,
@@ -166,7 +268,7 @@ export const  ApiProvider = ({children}:ApiProps) => {
       },])
 
       return(
-      <ApiContext.Provider value={{devs, setDevs}}>
+      <ApiContext.Provider value={{devs, setDevs, niveis, setNiveis}}>
         {children}
       </ApiContext.Provider>
       )    

@@ -16,12 +16,12 @@ const ListDevs = () => {
             </HeaderCard>
             <BoryCard>
                 <Data>
-                {item.datanascimento}
-                </Data>
-                <CHobby>
                     <HobbyTitle>
                         Hooby:
                     </HobbyTitle>
+                {item.datanascimento}
+                </Data>
+                <CHobby>
                 {item.hobby}
                 </CHobby>
             </BoryCard>

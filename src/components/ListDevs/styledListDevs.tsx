@@ -38,12 +38,12 @@ export const CListDevs = styled.div`
 
 
 export const CardDesvs = styled.div`
-    height: 18vh;
     width: 100%;
     background-color: red;
     border: solid 1px black;
     border-radius:10px;
     padding: 10px;
+    margin: 15px 0;
 `
 export const Name = styled.div`
     font-size: 25px;
@@ -54,13 +54,15 @@ export const CIcon = styled.div`
     font-size: xx-large;
 `
 export const BoryCard = styled.div`
-    background-color: white;
+    height: 10vh;
     `
 export const Data = styled.div`
     color:blue;
-    position: relative;
-    left:-1;
     font-style: italic;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 `
 export const NivelCard = styled.div``
 export const HeaderCard = styled.div`
@@ -70,7 +72,14 @@ export const HeaderCard = styled.div`
     align-items: center;
 
 `
-export const CHobby = styled.div``
-export const HobbyTitle = styled.div``
+export const CHobby = styled.div`
+    text-align: center;
+    padding-top: 3% ;
+`
+export const HobbyTitle = styled.div`
+    color:#4bd8be;
+    font-weight: 200;
+
+    `
 
 

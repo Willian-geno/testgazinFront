@@ -4,6 +4,7 @@ export const CBDashBoard = styled.div`
     background-color: grey;
     height: 90vh;  
     display: flex;
-    justify-content :center ;
+    justify-content :space-around ;
     align-items: center;
 `
+

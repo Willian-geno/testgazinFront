@@ -1,4 +1,5 @@
 import ListDevs from "../../components/ListDevs/ListDevs"
+import ListNiveis from "../../components/ListNiveis/listNiveis"
 import { useApi } from "../../contexts/apiContexrt/apiContext"
 import { CBDashBoard } from "./styledCDachBoard"
 
@@ -8,7 +9,7 @@ const BDashborad = () => {
 
     return <CBDashBoard>
         <ListDevs/>
-    
+        <ListNiveis/>
     </CBDashBoard>
 }
 
