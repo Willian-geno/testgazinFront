@@ -7,7 +7,7 @@ const BDashborad = () => {
     const {devs} = useApi()
 
     return <CBDashBoard>
-        <ListDevs></ListDevs>
+        <ListDevs/>
     
     </CBDashBoard>
 }

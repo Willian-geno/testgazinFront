@@ -1,5 +1,6 @@
 import { IDevs, useApi } from "../../contexts/apiContexrt/apiContext";
-import { CardDesvs, CListDevs, Name, HeaderCard, CIcon, BoryCard, NivelCard } from "./styledListDevs"
+import {Data, CardDesvs, CListDevs, Name, HeaderCard, CIcon, BoryCard, NivelCard, CHobby, HobbyTitle } from "./styledListDevs"
+import {FaUserCircle} from "react-icons/fa"
 
 const ListDevs = () => {
 
@@ -7,15 +8,22 @@ const ListDevs = () => {
 
  return <CListDevs>
 
-    {devs.map((item:IDevs, index) => {
+    {devs.map((item:IDevs, index: number) => {
         return <CardDesvs key={index}>
             <HeaderCard>
+                <CIcon><FaUserCircle/></CIcon>
                 <Name>{item.name}</Name>
-                <CIcon></CIcon>
             </HeaderCard>
             <BoryCard>
+                <Data>
                 {item.datanascimento}
+                </Data>
+                <CHobby>
+                    <HobbyTitle>
+                        Hooby:
+                    </HobbyTitle>
                 {item.hobby}
+                </CHobby>
             </BoryCard>
             <NivelCard>
             

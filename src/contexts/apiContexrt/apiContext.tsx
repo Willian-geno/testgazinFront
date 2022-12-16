@@ -73,6 +73,96 @@ export const  ApiProvider = ({children}:ApiProps) => {
         datanascimento: "28/02/2000",
         idade: "22",
         hobby: "jogar vidio-game",
+      },
+      {
+        id: 1,
+        nivel:  {
+          id: 1,
+          nivel: "Junior",
+        },  
+        name: "Willian Gustavo",
+        sexo: "Mascolino",
+        datanascimento: "28/02/2000",
+        idade: "22",
+        hobby: "jogar vidio-game",
+      },{
+        id: 1,
+        nivel:  {
+          id: 1,
+          nivel: "Junior",
+        },  
+        name: "Willian Gustavo",
+        sexo: "Mascolino",
+        datanascimento: "28/02/2000",
+        idade: "22",
+        hobby: "jogar vidio-game",
+      },{
+        id: 1,
+        nivel:  {
+          id: 1,
+          nivel: "Junior",
+        },  
+        name: "Willian Gustavo",
+        sexo: "Mascolino",
+        datanascimento: "28/02/2000",
+        idade: "22",
+        hobby: "jogar vidio-game",
+      },{
+        id: 1,
+        nivel:  {
+          id: 1,
+          nivel: "Junior",
+        },  
+        name: "Willian Gustavo",
+        sexo: "Mascolino",
+        datanascimento: "28/02/2000",
+        idade: "22",
+        hobby: "jogar vidio-game",
+      },
+      {
+        id: 1,
+        nivel:  {
+          id: 1,
+          nivel: "Junior",
+        },  
+        name: "Willian Gustavo",
+        sexo: "Mascolino",
+        datanascimento: "28/02/2000",
+        idade: "22",
+        hobby: "jogar vidio-game",
+      },{
+        id: 1,
+        nivel:  {
+          id: 1,
+          nivel: "Junior",
+        },  
+        name: "Willian Gustavo",
+        sexo: "Mascolino",
+        datanascimento: "28/02/2000",
+        idade: "22",
+        hobby: "jogar vidio-game",
+      },{
+        id: 1,
+        nivel:  {
+          id: 1,
+          nivel: "Junior",
+        },  
+        name: "Willian Gustavo",
+        sexo: "Mascolino",
+        datanascimento: "28/02/2000",
+        idade: "22",
+        hobby: "jogar vidio-game",
+      },{
+        id: 1,
+        nivel:  {
+          id: 1,
+          nivel: "Junior",
+        },  
+        name: "Willian Gustavo",
+        sexo: "Mascolino",
+        datanascimento: "28/02/2000",
+        idade: "22",
+        hobby: "jogar vidio-game",
       },])
 
       return(
