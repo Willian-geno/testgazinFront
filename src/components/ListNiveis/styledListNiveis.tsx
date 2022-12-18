@@ -1,7 +1,26 @@
 import styled from "styled-components";
 
 export const CardList = styled.div` 
-    width: 25vw;
+ 
+ width: 100%;
+    background-color: red;
+    border: solid 1px black;
+    border-radius:10px;
+    padding: 10px;
+    margin: 15px 0;
+
+
+`
+
+export const CardNiveis = styled.div`
+    
+`
+export const HeaderCard = styled.div``
+export const CIcon = styled.div``
+export const Name = styled.div``
+export const BoryCard = styled.div``
+export const CListNiveis = styled.div`
+ width: 25vw;
     background-color:wheat;
     height: 75vh;
     display:flex;
@@ -33,20 +52,5 @@ export const CardList = styled.div`
     width: 70%;
     border-radius: 5px;
 }
-
 `
-
-export const CardNiveis = styled.div`
-    width: 100%;
-    background-color: red;
-    border: solid 1px black;
-    border-radius:10px;
-    padding: 10px;
-    margin: 15px 0;
-`
-export const HeaderCard = styled.div``
-export const CIcon = styled.div``
-export const Name = styled.div``
-export const BoryCard = styled.div``
-export const CListNiveis = styled.div``
 

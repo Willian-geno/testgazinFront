@@ -1,6 +1,7 @@
 import { INivel, useApi } from "../../contexts/apiContexrt/apiContext";
-import { CIcon, CardList , HeaderCard, Name, BoryCard,CListNiveis } from "./styledListNiveis"
+import {  CardList ,   BoryCard,CListNiveis } from "./styledListNiveis"
 import {BsFillStarFill} from "react-icons/bs"
+import { CIcon, HeaderCard, Name } from "../ListDevs/styledListDevs";
 
 const ListNiveis = () => {
 
